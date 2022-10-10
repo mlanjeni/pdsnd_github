@@ -1,17 +1,35 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+The bikesahre project was finished on 01 September 2022 and this README file was written on the 10th October 2022.
 
 ### Project Title
-Replace the Project Title
+The project title was 'Explore US Bikeshare Data'
 
 ### Description
-Describe what your project is about and what it does
+The purpose of the bikeshare project was to give an insight into data science using python, with main focus on using pandas and numpy libraries. the two crucial libraries are used to perform descriptive analysis on the bikeshare data for three cities: Chicago, New York, and Washington.
 
 ### Files used
-Include the files used
+The project used the following three data files:
+    chicago.csv
+    new_york_city.csv
+    washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+1 my self for working tirelessly to make the project a success
+
+2 my fellow vodacom foundation sponsees. the guys collaborated so much on our whatsapp groups, solving project related questions and issues.
+
+3 Instructor/teacher Ahmed was instrumental in being the best teacher. the concepts he taught in the classes always hit home.
+
+4 The following sites were crucial in providing information, practice examples, and aswering my questions when working ob the project: 
+    https://www.geeksforgeeks.org/
+    https://pandas.pydata.org/
+    https://www.w3resource.com/
+    https://www.w3schools.com/
+    https://www.askpython.com/
+    https://www.tutorialspoint.com/
+    https://stackoverflow.com/
+
+5 The following book was also instrumental in explaining python concepts with simplicity:
+            Kent D. Lee Python Programming Fundamentals Second Edition
 
