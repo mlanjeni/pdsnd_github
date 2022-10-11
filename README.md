@@ -21,6 +21,8 @@ The project used the following three data files:
 
 3 Instructor/teacher Ahmed was instrumental in being the best teacher. the concepts he taught in the classes always hit home.
 
+4 my fellow colleagues )software/electronics engineers) who helped much with initial anaconda installation and code editor confingurtions
+
 4 The following sites were crucial in providing information, practice examples, and aswering my questions when working ob the project: 
     https://www.geeksforgeeks.org/
     https://pandas.pydata.org/
