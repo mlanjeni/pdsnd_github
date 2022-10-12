@@ -23,9 +23,9 @@ def get_filters():
     # the while loop keeps looping as long as invalid city name is entered. breaks out of loop once valid name is input
     # .lower() also helps with making input non-case sensitivee
     while True:
-        city_list = ['chicago', 'new york city', 'washington']
+        cities = ['chicago', 'new york city', 'washington']
         city = input('Would you like to see data for chicago, new york city or washington? Choose one city.\n').lower()
-        if city in city_list:
+        if city in cities:
             print('You entered', city)
             break
         else:
