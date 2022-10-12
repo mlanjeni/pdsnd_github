@@ -24,9 +24,9 @@ def get_filters():
     # the while loop keeps looping as long as invalid city name is entered. breaks out of loop once valid name is input
     # .lower() also helps with making input non-case sensitivee
     while True:
-        city_list = ['chicago', 'new york city', 'washington']
+        cities = ['chicago', 'new york city', 'washington']
         city = input('Would you like to see data for chicago, new york city or washington? Choose one city.\n').lower()
-        if city in city_list:
+        if city in cities:
             print('You entered', city)
             break
         else:
@@ -41,7 +41,7 @@ def get_filters():
             print('You entered {}'.format(month))
             break
         else:
-            print('\nInvalid month name entered. Please try again')
+            print('\nInvalid month name entered. Try again')
 
     # now user must choose a specific day or all days
     # get user input for day of week (all, monday, tuesday, ... sunday)
@@ -52,7 +52,7 @@ def get_filters():
             print('You entered {}'.format(day))
             break
         else:
-            print('Invalid day name entered. Please try again')
+            print('Invalid day name entered. Try again')
 
     print('-'*40)
     # this returns valid city, month, day inputs of user
@@ -245,7 +245,7 @@ def display_data(df):
             print('You have entered {}'.format(answer))
             print(df.head())
         elif answer not in user_answer_list:
-                print('Invalid input. Please try again')
+                print('Invalid input. Try again')
     # keep asking user to view more 5 raw data 
     # use while loop, meaning as long as the anser is yes, keep asking further
     while answer == 'yes':
